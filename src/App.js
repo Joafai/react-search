@@ -15,7 +15,7 @@ function App() {
           `https://api.api-ninjas.com/v1/celebrity?name=${searchTerm}`,
           {
             headers: {
-              "X-Api-Key": "Inser API KEY",
+              "X-Api-Key": "Insert your API key here",
             },
           }
         );
@@ -34,8 +34,11 @@ function App() {
   return (
     <div className="background">
       <form>
-        <label htmlFor="search">Search for a Nepo Baby:</label>
+        <label className="title" htmlFor="search">
+          Search for a Celebrity:
+        </label>
         <input
+          className="searchBox"
           type="text"
           id="search"
           value={searchTerm}

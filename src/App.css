@@ -3,14 +3,29 @@
 }
 
 .background {
-  background-color: #282c34;
+  background-color: #323438;
   min-height: 100vh;
   display: flex;
+  padding: 28px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.searchBox {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
